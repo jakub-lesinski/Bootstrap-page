@@ -1,0 +1,31 @@
+.view-project {
+    background-color: $bg-gray;
+    padding: 185px 0;
+    color: $text-gray;
+    &-heading {
+        text-transform: uppercase;
+    }
+
+    &-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 105px 190px;
+        background-color: $white;
+    }
+
+    &-text {
+        margin-top: 85px;
+    }
+
+    &-btn {
+        text-transform: uppercase;
+        background: none;
+        margin-top: 70px;
+        border: 2px solid $black;
+        padding: 20px 35px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+}

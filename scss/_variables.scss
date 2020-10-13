@@ -1,0 +1,15 @@
+$bg-gray: #efeee9;
+$bg-gray2 :#353535;
+$black: #000000;
+$text-gray: #5d5d5d;
+$white: #FFFFFF;
+$link-blue: #4eaeff;
+
+// BREAKPOINTS
+$breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+) !default;

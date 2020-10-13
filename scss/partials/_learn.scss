@@ -1,0 +1,40 @@
+.learn {
+    background-color: $bg-gray;
+    padding: 100px 0;
+
+    &-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        background-color: $white;
+        text-align: center;
+        padding: 65px 40px;
+        margin-top: 30px;
+
+    
+
+        @include media-breakpoint-up(sm) {
+           margin-top: 0;
+        }
+    }
+
+    &-heading,
+    &-text {
+        margin: 0;
+    }
+
+    &-text {
+        margin-top: 40px;
+    }
+
+    &-link {
+        margin-top: 50px;
+    }
+
+
+    &-link {
+        text-decoration: underline;
+        color: $link-blue;
+    }
+}

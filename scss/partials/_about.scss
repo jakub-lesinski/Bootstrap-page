@@ -1,0 +1,32 @@
+.about {
+    &-content {
+        margin-top: 55px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &:first-of-type {
+            margin-top: 165px;
+        }
+
+        &:last-of-type {
+            margin-bottom: 165px;
+        }
+
+        @include media-breakpoint-up(md) {
+            display: block;
+        }
+    }
+
+    &-text {
+        text-align: center;
+
+        @include media-breakpoint-up(md) {
+            text-align: left;
+        }
+    }
+}
+
+.image {
+    width: 100%;
+}

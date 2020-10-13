@@ -1,0 +1,16 @@
+.top-banner {
+    background-image: url('/img/Top-banner.png');
+    background-size: cover;
+    z-index: -1;
+    margin-bottom: 0;
+
+    &-text {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 23px;
+        text-align: center;
+        padding: 725px 0 100px 0;
+        margin: 0;
+        color: $text-gray;
+    }
+}

@@ -1,0 +1,21 @@
+.contact {
+    background-color: $bg-gray2;
+    color: $white;
+
+    &-text {
+        margin-top: 100px;
+    }
+
+    .map {
+        width: 100%;
+        margin-top: 50px;
+
+        @include media-breakpoint-up(sm) {
+            margin-top: 0;
+        }
+    }
+
+    span {
+        font-weight: bold;
+    }
+}
